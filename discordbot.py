@@ -17,8 +17,10 @@ async def on_command_error(ctx, error):
 async def ron(ctx):
     await ctx.send('純正九蓮宝燈')
 
+
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
+
 
 bot.run(token)
