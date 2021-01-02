@@ -15,8 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def ロン(ctx):
-    await ctx.send('純正
-九蓮宝燈')
+    await ctx.send('純正九蓮宝燈')
 
 
 bot.run(token)
